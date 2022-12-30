@@ -3,9 +3,10 @@ phases:
   pre_build:
     commands:
       - yarn install
+      - ls
   build:
     commands:
-      - yarn run test
+      //- yarn run test
   post_build:
     commands:
-    - npx cypress run
+    //- npx cypress run
