@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - yarn install
+  build:
+    commands:
+      - yarn run build
+  post_build:
+    commands:
+    - npx cypress run

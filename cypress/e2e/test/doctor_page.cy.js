@@ -74,10 +74,10 @@ describe('Doctor page', () => {
   
   })
 
-  it('Verify_Field_title (ACTION_TITLE))', () => {
-    Static_page.Verify_Entity(environment_variable.Action_Title_identifier,environment_variable.Action_Title)
+  // it('Verify_Field_title (ACTION_TITLE))', () => {
+  //   Static_page.Verify_Entity(environment_variable.Action_Title_identifier,environment_variable.Action_Title)
 
-  })
+  // })
 
   it('Verify_icon (EYE))', () => {
     //Static_page.Verify_icon(environment_variable.Eye_icon_identifier)
