@@ -1,0 +1,50 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/18.11.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add cypress-xpath — dev
+
+PATH: 
+  /usr/local/Cellar/maven/3.6.0/bin:/Users/aliraza/Library/Android/sdk/tools/bin:/Users/aliraza/Library/Android/sdk/tools:/Users/aliraza/Library/Android/sdk/platform-tools:/Users/aliraza/Library/Java/JavaVirtualMachines/openjdk-18.0.2/Contents/Home/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/usr/local/Cellar/maven/3.6.0/bin:/Users/aliraza/Library/Android/sdk/tools/bin:/Users/aliraza/Library/Android/sdk/tools:/Users/aliraza/Library/Android/sdk/platform-tools:/Users/aliraza/Library/Java/JavaVirtualMachines/openjdk-18.0.2/Contents/Home/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/aliraza/Library/Android/sdk/emulator:/Users/aliraza/Development/flutter/bin:/Users/aliraza/Library/Android/sdk/emulator:/Users/aliraza/Development/flutter/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.11.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: https://registry.yarnpkg.com/—: Request path contains unescaped characters
+      at new NodeError (node:internal/errors:393:5)
+      at new ClientRequest (node:_http_client:182:13)
+      at Object.request (node:https:360:10)
+      at module.exports.Request.start (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141452:32)
+      at module.exports.Request.end (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:142211:10)
+      at end (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141265:14)
+      at Immediate.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141279:7)
+      at process.processImmediate (node:internal/timers:471:21)
+
+npm manifest: 
+  {
+    "name": "cypress",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cypress": "^11.1.0"
+    },
+    "devDependencies": {
+      "cypress-xpath": "^2.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
