@@ -6,7 +6,7 @@ phases:
       - ls
   build:
     commands:
-      //- yarn run test
+
   post_build:
     commands:
-    //- npx cypress run
+
