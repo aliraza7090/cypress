@@ -2,7 +2,6 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - npm init -y
       - npm install -g cypress
   build:
     commands:
