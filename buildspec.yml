@@ -2,8 +2,8 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - yarn install
-      - ls
+      - npm init -y
+      - npm install -g cypress
   build:
     commands:
       - npx cypress run -record --browser chrome
