@@ -1,5 +1,5 @@
 {
-  "name": "cypress",
+  "name": "schedular",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "merge": "mochawesome-merge cypress//reports//*.json npm >cypress//reports//output.JSON",
     "generate_mochawesome_reports": "marge cypress/reports/output.json --reportDir ./ --inline"
   },
-  "author": "",
+  "author": "aliraza",
   "license": "ISC",
   "dependencies": {
     "cypress": "^11.1.0"
