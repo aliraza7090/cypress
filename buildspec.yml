@@ -2,7 +2,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - yarn install
+      - npm install -g cypress
   build:
     commands:
       - npx cypress run --config https://thechachaproject.com/
