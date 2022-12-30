@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules\\.bin\\cypress run --config pageLoadTimeout=100000",
+    "runtests": "npm run test --",
+    "merge": "mochawesome-merge cypress//reports//*.json npm >cypress//reports//output.JSON",
+    "generate_mochawesome_reports": "marge cypress/reports/output.json --reportDir ./ --inline"
   },
   "author": "",
   "license": "ISC",
