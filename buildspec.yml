@@ -2,7 +2,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - npm install -g cypress --location=global
+      - npm install --location=global cypress
   build:
     commands:
       - npx cypress run --config https://thechachaproject.com/
