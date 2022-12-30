@@ -5,7 +5,7 @@ phases:
       - yarn install
   build:
     commands:
-      - yarn run build
+      - yarn run test
   post_build:
     commands:
     - npx cypress run
