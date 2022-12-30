@@ -6,6 +6,7 @@ phases:
       - ls
   build:
     commands:
+      - npx cypress run -record --browser chrome
 
   post_build:
     commands:
