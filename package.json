@@ -15,9 +15,9 @@
 
 
     "cypress": "^8.6.0",
-    "cypress: "^11.1.0",
 
     "cypress": "^8.7.0",
+    "cypress": "^11.1.0",
 
     "cypress-fail-fast": "^3.3.0",
     "cypress-mochawesome-reporter": "^2.3.0",
