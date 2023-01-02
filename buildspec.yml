@@ -2,8 +2,11 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - yarn add cypress
+      - npm i
   build:
     commands:
-      - npx cypress run --config https://thechachaproject.com/
+      - n 14.15.5
+      - node -v
+      - npm -v
+      - npx cypress run --config-file "cypress.json"
 
