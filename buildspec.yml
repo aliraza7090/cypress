@@ -33,4 +33,4 @@ phases:
   build:
     commands:
       - npm run start:ci &
-      - npx cypress run --browser chrome
+      - npx cypress run
