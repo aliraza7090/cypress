@@ -30,9 +30,6 @@ phases:
   pre_build:
     commands:
     
-     
-      - npm run cy:info
-    
   build:
     commands:
       - npm run start:ci &
