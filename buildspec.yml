@@ -5,8 +5,8 @@ phases:
       - npm i
   build:
     commands:
-      - n 14.15.5
+      - n 18.11.0
       - node -v
       - npm -v
-      - npx cypress run --record --browser firefox
+      - npx cypress run --config-file "cypress.json"
 
