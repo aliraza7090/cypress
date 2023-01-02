@@ -27,7 +27,7 @@
 ///.<reference types ="Cypress-xpath"./>
 //import cypress from "cypress";
 import "cypress-xpath";
-import { Command } from "wd/lib/special-keys";
+//import { Command } from "wd/lib/special-keys";
 import Datepicker_calender from "./pageobject/Datepickerpage";
 import DateUtilis from "./dateutilis/dateutilis";
 import { Staticpage } from "../e2e/pages/Static_page";
