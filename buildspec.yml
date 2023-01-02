@@ -2,15 +2,8 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - sudo apt install curl
-      - curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
-      - source ~/.bashrc 
-      - nvm install node 
-      - nvm install 12.18.3 
-      - yarn install
+
   build:
     commands:
-      - node -v
-      - npm -v
-      - npx cypress run --config-file "cypress.json"
+      - deploy.sh
 
