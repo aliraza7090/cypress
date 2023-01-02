@@ -46,4 +46,7 @@
     "cy:run:chrome": "cypress run --browser chrome",
     "cy:run:firefox": "cypress run --browser firefox"
   }
+  "browser": {
+    "framework/selectors": "./framework/selectors.js"
+}
 }
