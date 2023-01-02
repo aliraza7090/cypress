@@ -5,5 +5,6 @@ phases:
       - yarn install
   build:
     commands:
-      - yarn add cypress
+      - npx cypress cache path
+      - /root/ .cache/Cypress
       - npx cypress run --config https://thechachaproject.com/
