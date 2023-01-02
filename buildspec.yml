@@ -2,11 +2,11 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - yarn install
       - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
       - . ~/.nvm/nvm.sh
       - nvm install --lts
       - node -e "console.log('Running Node.js ' + process.version)"
+      - yarn install
   build:
     commands:
       - node -v
